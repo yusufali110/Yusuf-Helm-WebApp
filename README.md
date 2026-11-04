@@ -155,3 +155,12 @@ https://github.com/yusufali110/Yusuf-Helm-WebApp
 **Application Version:** v2
 
 **Status:** Successfully deployed and upgraded on Minikube.
+## Screenshots
+
+### Yusuf WebApp
+
+![Yusuf WebApp](screenshots/website.png)
+
+### Kubernetes Pods
+
+![Kubernetes Pods](screenshots/pods.png)
