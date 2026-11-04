@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuf WebApp | Kubernetes & Helm</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #334155;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        .status {
+            color: #4ade80;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 9px 18px;
+            background: #1e293b;
+            color: #38bdf8;
+            border-radius: 30px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        .description {
+            color: #cbd5e1;
+            line-height: 1.8;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 18px;
+            margin-top: 55px;
+        }
+
+        .card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 14px;
+            padding: 28px 15px;
+        }
+
+        .card h2 {
+            color: #38bdf8;
+            margin-bottom: 12px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+            border-top: 1px solid #334155;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 34px;
+            }
+
+            main {
+                margin: 45px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Yusuf WebApp</div>
+        <div class="status">● Application Online</div>
+    </header>
+
+    <main>
+        <div class="tag">Kubernetes + Helm Project | Version 2</div>
+
+        <h1>Welcome to <span>Yusuf WebApp</span></h1>
+
+        <p class="description">
+            A custom web application deployed on Kubernetes
+            using Docker and Helm Charts.
+            This project demonstrates containerization,
+            application deployment and version upgrades.
+        </p>
+
+        <section class="cards">
+            <div class="card">
+                <h2>Docker</h2>
+                <p>Application containerization</p>
+            </div>
+
+            <div class="card">
+                <h2>Kubernetes</h2>
+                <p>Container orchestration</p>
+            </div>
+
+            <div class="card">
+                <h2>Helm</h2>
+                <p>Application deployment and upgrades</p>
+            </div>
+
+            <div class="card">
+                <h2>NGINX</h2>
+                <p>Web server technology</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    <p>Yusuf WebApp v2 | Successfully Upgraded with Helm</p>
+</footer>
+
+</body>
+</html>
